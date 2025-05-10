@@ -1,13 +1,191 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.movie__logo {
+    
+    max-width: 100%;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 10px;
 }
+
+.header {
+    font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav__bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+
+    
+
+    
+
+    
+
+    
+   
+}
+
+.nav__element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+
+.nav__link {
+    margin-right: 20px;
+    text-decoration: none;
+    float: right;
+    color: blue;
+    font-size: 22px;
+}
+
+.container {
+    
+}
+
+.movie-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+}
+
+.movie-details {
+    padding: 15px;
+}
+
+.movie-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.movie-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+.watch-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.watch-button:hover {
+    background-color: #218838;
+}
+
+.browse__tag {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(6, 6, 108);
+}
+
+.input__btn {
+    max-width: 100%;
+    width: 350px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+.browse__list {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    
+}
+
+.search__btn {
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.pagination {
+
+    margin-top: 20px;
+   
+   text-align: center;
+   
+   }
+   
+   
+   
+   .pagination-btn {
+   
+   padding: 5px 10px;
+   
+   margin: 0 5px;
+   
+   cursor: pointer;
+   
+   background-color: #007bff;
+   
+   color: white;
+   
+   border: none;
+   
+   border-radius: 5px;
+   
+   }
+   
+   
+   
+   .pagination-btn:disabled {
+   
+   cursor: not-allowed;
+   
+   opacity: 0.5;
+   
+   }
+   
+   
+   
+   .no-results {
+   
+   color: red;
+   
+   font-size: 18px;
+   
+   text-align: center;
+   
+   }
+   
+   
+

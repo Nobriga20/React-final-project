@@ -6,22 +6,22 @@ function Header () {
        
        src="./module 4 prject assets/55555.jpg"
        
-       class="movie__logo"
+       className="movie__logo"
        
        alt=""
        
        />
         <div class="header__tag">
        
-        <h1 class="browse__tag">Browse Our Movies</h1>
+        <h1 className="browse__tag">Browse Our Movies</h1>
         
         </div>
         
-        <div class="browse__list">
+        <div className="browse__list">
         
         <input type="text" id="searchInput" placeholder="Search..." />
         
-        <button class="search__btn">Search</button>
+        <button className="search__btn">Search</button>
         
         <div id="results"></div>
         

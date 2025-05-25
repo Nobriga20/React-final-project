@@ -6,7 +6,7 @@ function Landing () {
        <div className="container">
        
        <div className="row">
-       <div class="nav__element">
+       <div className="nav__element">
        
        <h1 className="header"> Movie Time</h1>
       

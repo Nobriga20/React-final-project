@@ -16,20 +16,24 @@ const movie = () => {
 
 }
 
-const Movie = `
+return (
+ <>
+ <div className="movie-card">
 
- <div class="movie-card">
+ <img src="${movie.Poster}" alt="Movie Poster" class="movie-poster" />
 
- <img src="${movie.Poster}" alt="Movie Poster" class="movie-poster">
+ <div className="movie-details">
 
- <div class="movie-details">
+ <h2 className="movie-title">${movie.Title}</h2>
 
- <h2 class="movie-title">${movie.Title}</h2>
+ <p className="movie-description">Released: ${movie.Year}</p>
 
- <p class="movie-description">Released: ${movie.Year}</p>
-
- <button class="watch-button">Watch Now</button>
-
- </div>
+ <button className="watch-button">Watch Now</button>
 
  </div>
+
+ </div>
+ </> 
+ )
+ 
+ 

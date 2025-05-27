@@ -1,3 +1,17 @@
+
+const [data, setData] = useState(null);
+const [input, setInput] = useState("")
+const getData = async () => {
+    const response = await fetch(`http://www.omdbapi.com/?s=${input}&apikey=dd4916f0`);
+    const result = await response.json();
+    console.log (result)
+    setData(result);
+  };
+  useEffect(() => {
+
+  }, []);
+
+
 function Header () {
     return (
         <>
@@ -19,9 +33,10 @@ function Header () {
         
         <div className="browse__list">
         
-        <input type="text" id="searchInput" placeholder="Search..." />
+        <input  value={input}
+              onChange={(e) => setInput(e.target.value)}type="text" id="searchInput" placeholder="Search..." />
         
-        <button className="search__btn">Search</button>
+        <button onClick={getData} className="search__btn">Search</button>
         
         <div id="results"></div>
         

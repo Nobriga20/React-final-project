@@ -1,4 +1,6 @@
 
+import React, { useEffect, useState } from "react";
+
 const [data, setData] = useState(null);
 const [input, setInput] = useState("")
 const getData = async () => {

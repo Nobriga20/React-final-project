@@ -1,20 +1,15 @@
-function Landing () {
-    return (
-        
-        <section id="landing">
-       
-       <div className="container">
-       
-       <div className="row">
-       <div className="nav__element">
-       
-       <h1 className="header"> Movie Time</h1>
-      
+function Landing() {
+  return (
+    <section id="landing">
+      <div className="container">
+        <div className="row">
+          <div className="nav__element">
+            <h1 className="header"> Movie Time</h1>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      </section>
-    )
+    </section>
+  );
 }
 
-export default Landing
+export default Landing;

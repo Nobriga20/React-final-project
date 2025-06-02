@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 .movie__logo {
@@ -16,11 +21,11 @@
 
 .header {
     font-size: 30px;
+    
 }
 
-.logo {
-    display: flex;
-    align-items: center;
+.nav__logo {
+    width: 50px;
     
 }
 

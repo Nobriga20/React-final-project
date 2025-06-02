@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {useNavigate} from "react-router-dom"
 
+
 function Header({setData}) {
   
   const [input, setInput] = useState("");
@@ -18,7 +19,7 @@ function Header({setData}) {
   return (
     <>
       <img
-        src="./module 4 prject assets/55555.jpg"
+        src="myimage"
         className="movie__logo"
         alt=""
       />

@@ -7,7 +7,7 @@ function Movies({ data }) {
       <section id="card__section">
         <div className="container">
           {data && data.Search && (
-            <div>
+            <div className="movies--card">
               {data.Search.map((movie, index) => (
                 <div key={index}>
                   <Link to={`/movie/${movie.imdbID}`}>

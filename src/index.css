@@ -58,7 +58,12 @@ nav{
 }
 
 .container {
-    
+    display: flex;
+
+}
+
+.movie-card {
+    display: flex;
 }
 
 .movie-card {

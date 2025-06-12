@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const resultsPerPage = 5
+
 
 function Movies({ data }) {
   return (
